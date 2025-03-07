@@ -1,0 +1,2 @@
+C:/Flutter/src/chatbot/android/app/.cxx/RelWithDebInfo/6y4e563v/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Flutter/src/chatbot/android/app/.cxx/RelWithDebInfo/6y4e563v/armeabi-v7a/CMakeFiles/rebuild_cache.dir

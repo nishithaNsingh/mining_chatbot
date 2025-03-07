@@ -1,0 +1,1 @@
+C:\Flutter\src\chatbot\build\app\intermediates\cxx\RelWithDebInfo\6y4e563v\obj\armeabi-v7a

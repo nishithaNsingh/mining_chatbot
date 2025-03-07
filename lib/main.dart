@@ -1,5 +1,9 @@
+
+import 'package:chatbot/splashscreen.dart';
 import 'package:flutter/material.dart';
-import 'sign_in_screen.dart';
+
+import 'bot.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -9,12 +13,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      title: 'Mining Law Chatbot',
+      debugShowCheckedModeBanner : false,
       theme: ThemeData(
-        primaryColor: Colors.yellow,
-        scaffoldBackgroundColor: Colors.black,
+        
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.black,
+          foregroundColor: Colors.white,
+
+        ),
       ),
-      home: SignInScreen(),
+      home: SplashScreen(),
     );
   }
 }
